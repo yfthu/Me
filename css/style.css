@@ -53,7 +53,14 @@ html{
 #bottomSection{
     margin: 0px;
     weight: 100vh;
-    height: 25vh;
+    height: 20vh;
     background-size: cover;
     background-image: url(rsc/pic3.jpg);
+}
+#bottomText{
+    line-height:20vh;
+    vertical-align: middle;
+    text-align: center;
+    font-size:15px;
+    color: white;
 }
