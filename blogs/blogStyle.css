@@ -1,0 +1,21 @@
+.BlogTopSection{
+    margin: 0px;
+    weight: 100vh;
+    height: 50vh;
+    background-size: cover;
+    background-image: url(timg2.jpg);
+}
+
+#blogTitle{
+    line-height:50vh;
+    vertical-align: middle;
+    text-align: center;
+    font-size:35px;
+    color: black;
+}
+
+.MainBody{
+    margin: 50px 400px 150px 150px;
+    padding: 35px;
+    border:1px solid #D5D5D5;
+}
