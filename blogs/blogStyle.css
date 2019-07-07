@@ -25,3 +25,18 @@ pre{
     font-family: "楷体","楷体_GB2312";
     white-space: pre-wrap;
 }
+
+#bottomSection{
+    margin: 0px;
+    weight: 100vh;
+    height: 20vh;
+    background-size: cover;
+    background-image: url(bottom.jpg);
+}
+#bottomText{
+    line-height:20vh;
+    vertical-align: middle;
+    text-align: center;
+    font-size:15px;
+    color: black;
+}
