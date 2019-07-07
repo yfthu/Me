@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81024c91-59ee-4cd6-b46a-ca27b3c5c8ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blogs/blog2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogs/blog2.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/blog2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,14 +18,18 @@
     <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="491">
+              <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blogs/blog2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="162">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -44,6 +49,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/blogs/blog2.html" />
       </list>
     </option>
@@ -89,6 +95,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -116,12 +123,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562485788669</updated>
-      <workItem from="1562485790217" duration="360000" />
+      <workItem from="1562485790217" duration="570000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="360000" />
+    <option name="totallyTimeSpent" value="570000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -150,9 +157,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/blogs/blog1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -160,10 +164,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blogs/blog2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="162">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
         </state>
       </provider>
     </entry>
