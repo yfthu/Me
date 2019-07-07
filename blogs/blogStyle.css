@@ -1,6 +1,3 @@
-html{
-    font-family:”微软雅黑”;
-}
 .BlogTopSection{
     margin: 0px;
     weight: 100vh;
@@ -25,6 +22,6 @@ html{
 }
 
 pre{
-    font-family:”微软雅黑”;
+    font-family: "楷体","楷体_GB2312";
     white-space: pre-wrap;
 }
