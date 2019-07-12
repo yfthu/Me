@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="blogStyle.css">
+    <title>实验四技术博客</title>
+</head>
+<body topmargin="0px" leftmargin="0px">
+<div class = "BlogTopSection">
+    <div id="blogTitle"> 对Web前端的认识与收获 </div>
+</div>
+<div class = "MainBody">
+    <p>本次实验花费了我很大的精力和时间，因为我以前从未接触过任何Web后端知识，所以本次实验包括http协议在内，我几乎完全从0开始学起。
+        由于对于nodejs，koa的知识过少，我首先学习了廖雪峰nodejs教程。
+        我大概花费了一天学习廖雪峰教程，对nodejs及后端知识，koa框架有了初步的了解。
+        但学了教程以后，我本次实验还是不会做，所以只能继续学习本次实验要求的koa内容。</p>
+    <p>对于静态文件服务搭建，我从网上查询了相关文档，发现KoaStatic中间键可以直接处理静态文件服务，
+        于是我把我的个人主页相关文件放在static文件夹下，处理相关路径即可访问静态资源服务。</p>
+    <p>对于api请求，我首先学习了http协议的相关知识，了解了GET, POST请求的参数位置，知道了POST请求的multipart/form-data数据传输格式。</p>
+    <p>对于第一小问compute，仅需要通过ctx.request.body函数将参数解析出来，然后采用switch分支语句计算得到结果，
+        最终返回时，ctx设置Content-Type，并且返回javascript对象即可。</p>
+    <p>第二小问POST请求，采用koa-body中间键处理form-data格式的post数据，然后在函数外定义全局对象keyAndValues，
+        里面的每个成员是一个键值对。这样在post时将键值对加载到全局对象keyAndValues中即可。</p>
+    <p>第三小问GET请求，可以直接请求keyAndValues中键对应的值，如果返回undefined，证明键不存在，ctx返回404状态码。
+        否则以json的格式返回keyAndValues中键对应的值即可。</p>
+    <p>第四小问DELETE请求，与get请求处理思路一致。如果键不存在，返回404，否则在keyAndValues对象中删除相关的属性即可。</p>
+</div>
+
+<!--屏幕底部分-->
+<div class = "ScreenLine"></div>
+<div id = "bottomSection">
+    <!--作者及版权-->
+    <div id="bottomText"> Copyright © 2019 by Yang Fan </div>
+</div>
+
+</body>
+</html>
