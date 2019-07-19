@@ -15,7 +15,7 @@
 }
 
 .MainBody{
-    margin: 50px 150px 150px 150px;
+    margin: 50px 10% 10% 10%;
     padding: 35px;
     border:1px solid #D5D5D5;
     font-size: 20px;
@@ -39,4 +39,10 @@ pre{
     text-align: center;
     font-size:15px;
     color: black;
+}
+#pic3{
+   display: inline-block; 
+}
+.pic{
+    margin: 20px;
 }
